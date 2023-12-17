@@ -1,5 +1,5 @@
-h3 {
-  font-size: 24px;
+.container {
+  font-family: Zen Kaku Gothic New;
 }
 
 #greet {
@@ -19,6 +19,33 @@ h3 {
   color: #72B8DE;
 }
 
+#caution {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .footer {
-  font-size: 1px;
-}/*# sourceMappingURL=masaki.css.map */
+  background-color: #1D527E;
+  color: #fff;
+}
+
+.footer .container .last-message {
+  background-color: #EEF7FE;
+  color: #1D527E;
+  padding-top: 73px;
+  padding-bottom: 73px;
+}
+
+.footer .container .last-message p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .container .footer-menu .list {
+  list-style: none;
+}
+/*# sourceMappingURL=masaki.css.map */
