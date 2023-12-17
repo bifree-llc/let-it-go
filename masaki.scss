@@ -2,6 +2,27 @@
   font-family: Zen Kaku Gothic New;
 }
 
+p {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.block {
+  display: block;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 #greet {
   color: #1D527E;
   background-color: #FEFCEE;
@@ -9,17 +30,34 @@
 
 #faq {
   color: #1D527E;
+  background-color: #F5F5F5;
+  padding-bottom: 60px;
   span.q {
     color: #FF3258;
   }
   span.a {
     color: #72B8DE;
   }
+  .faq-message {
+    ul {
+      li {
+        margin: 0 auto 20px;
+        background-color: #fff;
+        width: 65%;
+        min-width: 965px;
+        padding: 20px 40px;
+      }
+    }
+  }
 }
 
 #caution {
   padding-top: 100px;
   padding-bottom: 100px;
+  .caution-message {
+    margin: 0 auto;
+    width: max-content;
+  }
 }
 
 .footer {
@@ -39,6 +77,12 @@
     .footer-menu {
       .list {
         list-style: none;
+        li {
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
       }
     }
   }
