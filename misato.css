@@ -1,1 +1,22 @@
-/* No CSS *//*# sourceMappingURL=misato.css.map */
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  color: #1D527E;
+}
+body ul {
+  list-style: none;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 1200px;
+  height: 70px;
+}
+.header ul {
+  display: flex;
+}/*# sourceMappingURL=misato.css.map */
