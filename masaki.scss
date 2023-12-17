@@ -26,6 +26,21 @@ h3 {
 #greet {
   color: #1D527E;
   background-color: #FEFCEE;
+  padding-bottom: 70px;
+  .greet-message {
+    &__001 {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    &__002 {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    &__003 {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  }
 }
 
 #faq {
@@ -51,6 +66,39 @@ h3 {
   }
 }
 
+#reco {
+  padding-bottom: 100px;
+  .reco-item {
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+
+#use {
+  background-color: #EEF7FE;
+  padding-bottom: 100px;
+  .use-item {
+    max-width: fit-content;
+    margin: 0 auto;
+    .line-btn {
+      margin-top: 50px;
+      justify-content: center;
+      display: flex;
+      background-color: #42B455;
+      padding: 20px 40px;
+      a {
+        color: #fff;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        line-height: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
 #caution {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -63,6 +111,7 @@ h3 {
 .footer {
   background-color: #1D527E;
   color: #fff;
+  padding-bottom: 32px;
   .container {
     .last-message {
       background-color: #EEF7FE;
@@ -75,12 +124,31 @@ h3 {
       }
     }
     .footer-menu {
+      padding-top: 42px;
+      justify-content: space-between;
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
       .list {
         list-style: none;
+        display: flex;
         li {
           a {
+            line-height: 70px;
             color: #fff;
             text-decoration: none;
+            margin-right: 30px;
+          }
+        }
+        li.line {
+          background-color: #42B455;
+          width: 170px;
+          height: 70px;
+          a {
+            display: block;
+            height: 100%;
+            width: 100%;
+            text-align: center;
           }
         }
       }
