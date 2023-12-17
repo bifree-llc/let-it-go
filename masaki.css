@@ -60,6 +60,22 @@ h3 {
   margin: 0 auto;
 }
 
+.wants {
+  background-color: #FEEFF2;
+  max-width: 900px;
+  padding-top: 145px;
+  padding-bottom: 135px;
+  border-radius: 80px;
+}
+
+.wants ul {
+  display: block;
+  margin: 0 auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .hontou {
   padding-top: 80px;
   padding-bottom: 80px;
