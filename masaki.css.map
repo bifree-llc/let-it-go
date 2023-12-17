@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,GAAG;CACf",
-    "sources": [
-        "masaki.scss"
-    ],
-    "names": [],
-    "file": "masaki.css"
-}
+{"version":3,"sources":["masaki.scss","masaki.css"],"names":[],"mappings":"AAAA;EACE,cAAA;ACCF","file":"masaki.css"}
