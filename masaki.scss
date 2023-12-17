@@ -1,3 +1,7 @@
+.container {
+  font-family: Zen Kaku Gothic New;
+}
+
 #greet {
   color: #1D527E;
   background-color: #FEFCEE;
@@ -13,6 +17,29 @@
   }
 }
 
+#caution {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .footer {
-  font-size: 1px;
+  background-color: #1D527E;
+  color: #fff;
+  .container {
+    .last-message {
+      background-color: #EEF7FE;
+      color: #1D527E;
+      padding-top: 73px;
+      padding-bottom: 73px;
+      p {
+        display: flex;
+        justify-content: center;
+      }
+    }
+    .footer-menu {
+      .list {
+        list-style: none;
+      }
+    }
+  }
 }
