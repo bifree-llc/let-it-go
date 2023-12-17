@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1440px;
+  ul {
+    list-style: none;
+  }
+}
+
+.content {
+  max-width: 1200px;
+}
+
+
+.header {
+  width: 1200px;
+  height: 70px;
+  ul {
+    display: flex;
+  }
+}
