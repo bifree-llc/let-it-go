@@ -13,6 +13,12 @@ body ul {
   margin: 0 auto;
 }
 
+.title img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .header {
   width: 1200px;
   height: 70px;
