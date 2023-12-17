@@ -2,13 +2,15 @@ body {
   margin: 0;
   padding: 0;
   max-width: 1440px;
+  color: #1D527E;
 }
 body ul {
   list-style: none;
 }
 
 .content {
-  max-width: 1200px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
