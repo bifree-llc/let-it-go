@@ -60,6 +60,23 @@ h3 {
   margin: 0 auto;
 }
 
+.hontou {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.desuga {
+  background-color: #EEF7FE;
+  max-height: 340px;
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+.desuga p {
+  text-align: center;
+}
+
 #voice {
   background-color: #FAFAFA;
   padding-bottom: 90px;
