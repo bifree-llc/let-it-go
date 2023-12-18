@@ -27,6 +27,7 @@ body {
     display: flex;
     margin: 0 auto;
     li {
+      font-size: 15px;
       a {
         color: #fff;
       }
@@ -72,7 +73,7 @@ body {
   height: 64.925px;
   color: #FFFFFF;
   background-color: #72B8DE;
-  padding: 14px 36px 10px 36px;
+  line-height: 65px;
   text-align: center;
   margin:  0 auto;
 }

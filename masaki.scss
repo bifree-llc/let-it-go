@@ -25,12 +25,43 @@
   background-color: #FEFCEE;
 }
 
+.accent-y {
+  background-color: #FFE974;
+  color: #1D527E;
+  width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+
 .center {
   text-align: center;
 }
 
 p {
   margin: 0;
+}
+
+.about-instead {
+  margin: 0 auto;
+  width: max-content;
+  .bg-w {
+    width: 1000px;
+    padding-top: 85px;
+    padding-bottom: 95px;
+    .inner {
+      width: fit-content;
+      margin: 0 auto;
+      text-align: center;
+      ul {
+        padding-left: 0;
+        li {
+          text-align: initial;
+        }
+      }
+    }
+  }
 }
 
 .hidden {
