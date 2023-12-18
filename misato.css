@@ -32,6 +32,10 @@ body ul {
   margin: 0 auto;
 }
 
+.header ul li {
+  font-size: 15px;
+}
+
 .header ul li a {
   color: #fff;
 }
@@ -82,7 +86,7 @@ body ul {
   height: 64.925px;
   color: #FFFFFF;
   background-color: #72B8DE;
-  padding: 14px 36px 10px 36px;
+  line-height: 65px;
   text-align: center;
   margin: 0 auto;
 }

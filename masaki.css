@@ -25,12 +25,51 @@
   background-color: #FEFCEE;
 }
 
+.accent-y {
+  background-color: #FFE974;
+  color: #1D527E;
+  width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+}
+
 .center {
   text-align: center;
 }
 
 p {
   margin: 0;
+}
+
+.about-instead {
+  margin: 0 auto;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.about-instead .bg-w {
+  width: 1000px;
+  padding-top: 85px;
+  padding-bottom: 95px;
+}
+
+.about-instead .bg-w .inner {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-instead .bg-w .inner ul {
+  padding-left: 0;
+}
+
+.about-instead .bg-w .inner ul li {
+  text-align: initial;
 }
 
 .hidden {
