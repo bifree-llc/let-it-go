@@ -44,6 +44,8 @@ h3 {
 
 .loadmap {
   font-size: 18px;
+  width: 1200px;
+  margin: 0 auto;
   h4 {
     width: 740px;
     font-size: 24px;
@@ -165,6 +167,7 @@ h3 {
   color: #1D527E;
   background-color: #FEFCEE;
   padding-bottom: 70px;
+  font-size: 18px;
   .greet-message {
     &__001 {
       max-width: 800px;
@@ -185,6 +188,7 @@ h3 {
   color: #1D527E;
   background-color: #F5F5F5;
   padding-bottom: 60px;
+  font-size: 18px;
   span.q {
     color: #FF3258;
   }
@@ -240,6 +244,7 @@ h3 {
 #caution {
   padding-top: 100px;
   padding-bottom: 100px;
+  font-size: 18px;
   .caution-message {
     margin: 0 auto;
     width: max-content;
@@ -252,6 +257,7 @@ h3 {
   padding-bottom: 32px;
   .container {
     .last-message {
+      font-size: 18px;
       background-color: #EEF7FE;
       color: #1D527E;
       padding-top: 73px;
