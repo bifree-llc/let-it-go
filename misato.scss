@@ -20,10 +20,17 @@ body {
 
 
 .header {
-  width: 1200px;
   height: 70px;
+  background-color: #1D527E;
+  color: #fff;
   ul {
     display: flex;
+    margin: 0 auto;
+    li {
+      a {
+        color: #fff;
+      }
+    }
   }
 }
 
