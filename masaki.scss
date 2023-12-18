@@ -1,5 +1,24 @@
 .container {
   font-family: Zen Kaku Gothic New;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.bg-r {
+  background-color: #FEEFF2;
+}
+
+.bg-b {
+  background-color: #EEF7FE;
+}
+
+.bg-y {
+  background-color: #FEFCEE;
+}
+
+.center {
+  text-align: center;
 }
 
 p {
@@ -23,8 +42,22 @@ h3 {
   text-align: center;
 }
 
+.loadmap {
+  font-size: 18px;
+  h4 {
+    width: 740px;
+    font-size: 24px;
+    line-height: 63px;
+  }
+}
+
+.load__001 {
+  margin-top: 45px;
+}
+
 .voice-bg {
   &-r {
+    font-size: 16px;
     background-color: #FEEFF2;
     padding-bottom: 32px;
     p {
@@ -35,6 +68,7 @@ h3 {
   }
   &-y {
     background-color: #FEFCEE;
+    font-size: 16px;
     p {
       width: fit-content;
       max-width: 260px;
@@ -43,6 +77,7 @@ h3 {
   }
   &-b {
     background-color: #EEF7FE;
+    font-size: 16px;
     p {
       width: fit-content;
       max-width: 260px;
@@ -61,6 +96,26 @@ h3 {
     display: block;
     margin: 0 auto;
     width: max-content;
+  }
+}
+
+.quote {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  ul {
+    display: block;
+    margin: 0 auto 40px;
+    width: fit-content;
+    padding-left: 0;
+    li {
+      font-size: 24px;
+    }
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
   }
 }
 
