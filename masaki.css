@@ -102,7 +102,6 @@ p {
 .ttl-block {
   display: block;
   margin: 0 auto;
-  margin-bottom: 100px;
 }
 
 .img-block {
@@ -345,7 +344,7 @@ h3 {
   margin: 0 auto 20px;
   background-color: #fff;
   width: 65%;
-  min-width: 965px;
+  max-width: 965px;
   padding: 20px 40px;
 }
 
