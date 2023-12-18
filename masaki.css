@@ -1,5 +1,24 @@
 .container {
   font-family: Zen Kaku Gothic New;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.bg-r {
+  background-color: #FEEFF2;
+}
+
+.bg-b {
+  background-color: #EEF7FE;
+}
+
+.bg-y {
+  background-color: #FEFCEE;
+}
+
+.center {
+  text-align: center;
 }
 
 p {
@@ -23,7 +42,22 @@ h3 {
   text-align: center;
 }
 
+.loadmap {
+  font-size: 18px;
+}
+
+.loadmap h4 {
+  width: 740px;
+  font-size: 24px;
+  line-height: 63px;
+}
+
+.load__001 {
+  margin-top: 45px;
+}
+
 .voice-bg-r {
+  font-size: 16px;
   background-color: #FEEFF2;
   padding-bottom: 32px;
 }
@@ -38,6 +72,7 @@ h3 {
 
 .voice-bg-y {
   background-color: #FEFCEE;
+  font-size: 16px;
 }
 
 .voice-bg-y p {
@@ -50,6 +85,7 @@ h3 {
 
 .voice-bg-b {
   background-color: #EEF7FE;
+  font-size: 16px;
 }
 
 .voice-bg-b p {
@@ -74,6 +110,31 @@ h3 {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
+}
+
+.quote {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.quote ul {
+  display: block;
+  margin: 0 auto 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 0;
+}
+
+.quote ul li {
+  font-size: 24px;
+}
+
+.quote p {
+  text-align: center;
+  font-size: 18px;
 }
 
 .hontou {
