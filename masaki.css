@@ -12,6 +12,16 @@
   width: 100%;
 }
 
+.fv {
+  position: relative;
+}
+
+.fv-message {
+  position: absolute;
+  top: 65%;
+  left: 25%;
+}
+
 section#fv {
   margin-top: -10%;
 }
@@ -70,7 +80,7 @@ p {
 }
 
 .about-instead .bg-w {
-  width: 70%;
+  width: 100%;
   padding-top: 85px;
   padding-bottom: 95px;
 }
@@ -138,7 +148,8 @@ h3 {
 
 .loadmap {
   font-size: 18px;
-  width: 1200px;
+  max-width: 1200px;
+  width: 82%;
   margin: 0 auto 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,9 +163,10 @@ h3 {
 }
 
 .loadmap h4 {
-  width: 740px;
+  max-width: 740px;
   font-size: 24px;
   line-height: 63px;
+  padding-left: 15%;
 }
 
 .loadmap img {
@@ -495,5 +507,51 @@ h3 {
 .footer .container .footer-menu .list li.line a img {
   margin: 5px;
   margin-left: 20px;
+}
+
+.loadmap-nmv {
+  position: relative;
+}
+
+.loadmap-nmv__1::before {
+  position: absolute;
+  text-align: center;
+  top: -10%;
+  left: 0px;
+  line-height: 100%;
+  font-family: "carattere";
+  width: 5rem;
+  height: 5rem;
+  font-size: 90px;
+  background-color: #F7D4DA;
+  content: "1";
+}
+
+.loadmap-nmv__2::before {
+  position: absolute;
+  text-align: center;
+  top: -10%;
+  left: 0px;
+  line-height: 100%;
+  font-family: "carattere";
+  width: 5rem;
+  height: 5rem;
+  font-size: 90px;
+  background-color: #FFE974;
+  content: "2";
+}
+
+.loadmap-nmv__3::before {
+  position: absolute;
+  text-align: center;
+  top: -10%;
+  left: 0px;
+  line-height: 100%;
+  font-family: "carattere";
+  width: 5rem;
+  height: 5rem;
+  font-size: 90px;
+  background-color: #72b8de;
+  content: "3";
 }
 /*# sourceMappingURL=masaki.css.map */
