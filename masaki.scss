@@ -469,3 +469,60 @@ h3 {
   background-color: #72b8de;
   content: "3";
 }
+
+.sp-mainvisual {
+  display: none;
+}
+
+.pc-none {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  section#fv {
+    margin-top: 0;
+  }
+  .pc-mainvisual {
+    display: none;
+  }
+  .sp-mainvisual {
+    display: block;
+  }
+  .fv-message {
+    position: inherit;
+    text-align: center;
+  }
+  .pc-none {
+    display: block;
+  }  
+  #fv {
+    background: #FDF6F7;
+    padding-bottom: 25px;
+  }
+  #intro {
+    margin-top: 80px;
+  }
+  .last-message p{
+    width: 88%;
+    margin: 0 auto;
+  }
+  #caution {
+    .caution-message {
+      width: 100%;
+      ul {
+        padding: 0;
+        width: 85%;
+        margin: 0 auto;
+      }
+    }
+  }
+  .footer {
+    .container {
+      .footer-menu {
+        .list {
+
+        }
+      } 
+    }
+  }
+}

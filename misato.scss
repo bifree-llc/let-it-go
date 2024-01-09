@@ -86,10 +86,13 @@ body {
 
 // イントロダクション
 .intro-top {
-  background-color: #FEFCEE;
   padding-top: 100px;
   padding-bottom: 88px;
   text-align: center;
+}
+
+.intro-top-text {
+  background-color: #FEFCEE;
 }
 
 .intro-middle{
@@ -198,14 +201,27 @@ body {
 SP
 -------------------------------------------*/
 @media screen and (max-width: 900px) {
-  body {
-    padding: 0 16px;
+  // body {
+  //   padding: 0 16px;
+  // }
+  .container {
+    font-size: 18px;
   }
   .content {
     width: 90%;
     margin: 0 auto;
   }
 
+  #fv img {
+    width: 100%;
+    margin-top: 70px;
+  }
+
+  .intro-top {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
   // イントロダクション
   .intro-middle{
     display: block;
@@ -216,9 +232,13 @@ SP
   }
   .intro-middle-left {
     margin: 0 auto;
+    width: 90%;
   }
   .intro-middle-left p {
     text-align: center;
+  }
+  .intro-middle-left p br {
+    display: none;
   }
 
   .pink-list {
