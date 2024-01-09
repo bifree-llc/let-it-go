@@ -193,3 +193,109 @@ body {
     padding-bottom: 145px;
   }
 }
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 900px) {
+  body {
+    padding: 0 16px;
+  }
+  .content {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  // イントロダクション
+  .intro-middle{
+    display: block;
+    margin-top: 100px;
+  }
+  .intro-middle-right {
+    width: 90%;
+  }
+  .intro-middle-left {
+    margin: 0 auto;
+  }
+  .intro-middle-left p {
+    text-align: center;
+  }
+
+  .pink-list {
+    padding-bottom: 50px;
+    p {
+      text-align: left;
+    }
+  }
+
+  .yellow-list {
+    padding: 40px 30px;
+    font-size: 1.125rem;
+  }
+
+  // アバウト
+  .about-instead {
+    width: 90%;
+    .accent-y {
+      width: auto;
+      font-size: 1.25rem;
+    }
+    .bg-w .inner ul {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  // 引用
+  .quote {
+    width: auto;
+    li:first-child {
+      margin-top: 40px;
+    }
+  }
+
+  // サポート
+.support-block {
+  flex-flow: column;
+  .wants {
+    width: 150%;
+  }
+}
+
+// ロードマップ
+.loadmap {
+  flex-flow: column;
+}
+
+  //ボイス
+  #voice h3 {
+    margin-bottom: 160px;
+    font-size: 1.125rem;
+    font-weight: 500;
+  }
+  .voice-flex {
+    flex-flow: column;    
+  }
+  #voice .voice-flex  .voice-item {
+      margin: 0 auto;
+      width: 95%;
+      margin-bottom: 80px;
+      height: auto;
+    img {
+      position: relative;
+      display: block;
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      top: -100px;
+    }
+    .name {
+      margin-top: -60px;
+    }
+      p {
+        width: 95%;
+        max-width: 85%;
+        margin-bottom: 40px;
+      }
+    }
+  }
