@@ -588,6 +588,34 @@ h3 {
   #intro {
     margin-top: 80px;
   }
+  .use-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .use-img img {
+    width: 100%;
+  }
+  .reco-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .reco-img img {
+    width: 100%;
+  }
+  .greet-iimg {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .greet-iimg img {
+    width: 100%;
+  }
+  .faq-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .faq-img img {
+    width: 100%;
+  }
   .reco-item ul {
     padding: 0;
     width: 90%;
