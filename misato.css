@@ -110,24 +110,39 @@ body ul {
 }
 
 .intro-middle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 100px;
+  position: relative;
+}
+
+.intro-middle .intro-middle-upper {
+  position: relative;
+}
+
+.intro-middle .intro-middle-upper p.sp-none {
+  position: absolute;
+  top: 0;
+  right: 3%;
 }
 
 .intro-middle-right {
-  margin-top: 39px;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  z-index: -99;
   width: 62%;
+  margin-left: auto;
 }
 
 .intro-middle-right p {
   margin-left: 42px;
 }
 
+.girl-photo {
+  width: 44%;
+}
+
 .intro-middle-left {
   margin-top: 39px;
-  width: 62%;
   height: auto;
 }
 
@@ -139,17 +154,24 @@ body ul {
 }
 
 .pink-list {
-  margin-top: 40px;
   background-color: #FDF6F7;
-  border-radius: 5%;
+  border-radius: 5% 0 0 5%;
+  margin-left: auto;
 }
 
-.pink-list .pink-list-text {
+.pink-list .pink-list-inner {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 80px;
   padding-top: 100px;
+}
+
+.pink-list .pink-list-inner .pink-list-text {
   margin-bottom: 50px;
 }
 
-.pink-list ul {
+.pink-list .pink-list-inner ul {
+  margin: 0;
   padding-left: 80px;
 }
 
@@ -165,10 +187,13 @@ body ul {
           align-items: center;
   margin-top: 22px;
   margin-bottom: 103px;
-  border-radius: 80px;
+  border-radius: 0 80px 80px 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  width: 62%;
 }
 
 .intro-middle-img {
@@ -231,10 +256,36 @@ body ul {
   padding-bottom: 145px;
 }
 
+#support p.center {
+  text-align: center;
+}
+
+.support-block-img img {
+  width: 100%;
+}
+
+.sp-block {
+  display: none;
+}
+
+.pc-none {
+  display: none;
+}
+
+.sp-none {
+  display: block;
+}
+
 /*-------------------------------------------
 SP
 -------------------------------------------*/
 @media screen and (max-width: 900px) {
+  .sp-block {
+    display: block;
+  }
+  .girl-photo {
+    width: 85%;
+  }
   .container {
     font-size: 18px;
   }
@@ -244,6 +295,12 @@ SP
   }
   #about .blue {
     width: 50%;
+  }
+  #about .about-text .text1 {
+    margin-bottom: 40px;
+  }
+  #about .about-text .text2 {
+    margin-bottom: 40px;
   }
   #fv img {
     width: 100%;
@@ -256,29 +313,70 @@ SP
   #detail .detail-img img {
     width: 100%;
   }
+  .intro-middle-img {
+    width: 85%;
+    margin-left: auto;
+    display: block;
+    margin-top: 42px;
+  }
   .intro-top {
     width: 90%;
     margin: 0 auto;
   }
+  .sp-understand {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+  }
+  .bg-r-yp {
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+  }
   .intro-middle {
     display: block;
     margin-top: 100px;
+    position: relative;
+  }
+  .intro-middle .pc-none {
+    margin-bottom: 30px;
   }
   .intro-middle-right {
     width: 90%;
+    margin-left: auto;
+    margin-top: 0;
+    position: inherit;
+  }
+  .intro-middle-right p {
+    margin-left: 0;
   }
   .intro-middle-left {
     margin: 0 auto;
+    width: 100%;
+  }
+  .intro-middle-left .sp-block-90 {
     width: 90%;
+    margin: 0 auto;
+    display: block;
   }
   .intro-middle-left p {
-    text-align: center;
+    text-align: justify;
   }
   .intro-middle-left p br {
     display: none;
   }
   .pink-list {
+    border-radius: 5% 0 0 5%;
+    margin-top: 0;
+  }
+  .pink-list .pink-list-inner {
+    padding-top: 50px;
     padding-bottom: 50px;
+  }
+  .pink-list .pink-list-inner ul {
+    padding: 0;
   }
   .pink-list p {
     text-align: left;
@@ -286,6 +384,7 @@ SP
   .yellow-list {
     padding: 40px 30px;
     font-size: 1.125rem;
+    border-radius: 0 80px 80px 0;
   }
   .about-instead {
     width: 90%;
@@ -360,13 +459,5 @@ SP
   .pc-none {
     display: block;
   }
-}
-
-.pc-none {
-  display: block;
-}
-
-.sp-none {
-  display: none;
 }
 /*# sourceMappingURL=misato.css.map */

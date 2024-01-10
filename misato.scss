@@ -96,21 +96,36 @@ body {
 }
 
 .intro-middle{
-  display: flex;
   margin-top: 100px;
+  position: relative;
+  .intro-middle-upper {
+    position: relative;
+    p.sp-none {
+      position: absolute;
+      top: 0;
+      right: 3%;
+    }
+  }
 }
 
 .intro-middle-right {
-  margin-top: 39px;
+  position: absolute;
+  right: 0;
+  top: 30%;
+  z-index: -99;
   width: 62%;
+  margin-left: auto;
   p {
     margin-left: 42px;
   }
 }
 
+.girl-photo {
+  width: 44%;
+}
+
 .intro-middle-left {
   margin-top: 39px;
-  width: 62%;
   height: auto;
 }
 
@@ -122,15 +137,21 @@ body {
 }
 
 .pink-list {
-  margin-top: 40px;
   background-color: #FDF6F7;
-  border-radius: 5%;
-  .pink-list-text {
+  border-radius: 5% 0 0 5%;
+  margin-left: auto;
+  .pink-list-inner {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 80px;
     padding-top: 100px;
-    margin-bottom: 50px;
-  }
-  ul {
-    padding-left: 80px;
+    .pink-list-text {
+      margin-bottom: 50px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 80px;
+    }
   }
 }
 
@@ -142,8 +163,11 @@ body {
   align-items: center;
   margin-top: 22px;
   margin-bottom: 103px;
-  border-radius: 80px;
+  border-radius: 0 80px 80px 0;
   justify-content: center;
+  padding-top: 180px;
+  padding-bottom: 180px;
+  width: 62%;
 }
 
 .intro-middle-img {
@@ -197,13 +221,40 @@ body {
   }
 }
 
+#support {
+  p.center {
+    text-align: center;
+  }
+}
+
+.support-block-img {
+  img {
+    width: 100%;
+  }
+}
+
+.sp-block {
+  display: none;
+}
+
+.pc-none {
+  display: none;
+}
+
+.sp-none {
+  display: block;
+}
+
 /*-------------------------------------------
 SP
 -------------------------------------------*/
 @media screen and (max-width: 900px) {
-  // body {
-  //   padding: 0 16px;
-  // }
+  .sp-block {
+    display: block;
+  }
+  .girl-photo {
+    width: 85%;
+  }
   .container {
     font-size: 18px;
   }
@@ -214,6 +265,14 @@ SP
   #about {
     .blue {
       width: 50%;
+    }
+    .about-text {
+      .text1 {
+        margin-bottom: 40px;
+      }
+      .text2 {
+        margin-bottom: 40px;
+      }
     }
   } 
   #fv img {
@@ -229,33 +288,72 @@ SP
       }
     }
   }
-
+  .intro-middle-img {
+    width: 85%;
+    margin-left: auto;
+    display: block;
+    margin-top: 42px;
+  }
   .intro-top {
     width: 90%;
     margin: 0 auto;
   }
-  
+  .sp-understand {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    z-index: 3;
+    position: relative;
+  }
+  .bg-r-yp {
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+  }
   // イントロダクション
   .intro-middle{
     display: block;
     margin-top: 100px;
+    position: relative;
+    .pc-none {
+      margin-bottom: 30px;
+    }
   }
   .intro-middle-right {
     width: 90%;
+    margin-left: auto;
+    margin-top: 0;
+    position: inherit;
+    p {
+      margin-left: 0;
+    }
   }
   .intro-middle-left {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
+    .sp-block-90 {
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+    }
   }
   .intro-middle-left p {
-    text-align: center;
+    text-align: justify;
   }
   .intro-middle-left p br {
     display: none;
   }
 
   .pink-list {
-    padding-bottom: 50px;
+    border-radius: 5% 0 0 5%;
+    margin-top: 0;
+    .pink-list-inner {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      ul {
+        padding: 0;
+      }
+    }
     p {
       text-align: left;
     }
@@ -264,6 +362,7 @@ SP
   .yellow-list {
     padding: 40px 30px;
     font-size: 1.125rem;
+    border-radius: 0 80px 80px 0;
   }
 
   // アバウト
@@ -290,17 +389,17 @@ SP
   }
 
   // サポート
-.support-block {
-  flex-flow: column;
-  .wants {
-    width: 150%;
+  .support-block {
+    flex-flow: column;
+    .wants {
+      width: 150%;
+    }
   }
-}
 
-// ロードマップ
-.loadmap {
-  flex-flow: column;
-}
+  // ロードマップ
+  .loadmap {
+    flex-flow: column;
+  }
 
   //ボイス
   #voice h3 {
@@ -339,12 +438,4 @@ SP
     .pc-none {
       display: block;
     }  
-  }
-
-  .pc-none {
-    display: block;
-  }
-
-  .sp-none {
-    display: none;
-  }
+}

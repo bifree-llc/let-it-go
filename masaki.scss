@@ -192,7 +192,8 @@ h3 {
   max-width: 900px;
   padding-top: 145px;
   padding-bottom: 135px;
-  border-radius: 80px;
+  border-radius: 80px 0 0 80px;
+  margin-left: auto;
   ul {
     display: block;
     margin: 0 auto;
@@ -479,6 +480,15 @@ h3 {
 }
 
 @media screen and (max-width: 900px) {
+  .header {
+    .container {
+      .header-menu {
+        .list {
+          display: none !important;
+        }
+      }
+    }
+  }
   section#fv {
     margin-top: 0;
   }
@@ -490,6 +500,9 @@ h3 {
     }
   } 
   #support {
+    p.center {
+      text-align: justify;
+    }
     .support-img {
       width: 90%;
       margin: 0 auto;
@@ -515,6 +528,14 @@ h3 {
     }
     ul {
       padding: 0;
+    }
+  }
+  #detail {
+    .center {
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      text-align: justify;
     }
   }
   .pc-mainvisual {
@@ -569,6 +590,7 @@ h3 {
     }
   }
   #about {
+    margin-top: 80px !important;
     .about-img {
       width: 90%;
       margin: 0 auto;
