@@ -588,8 +588,24 @@ h3 {
   #intro {
     margin-top: 80px;
   }
+  .reco-item ul {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .faq-message ul {
+    padding: 0;
+  }
+  .use-item {
+    width: 90%;
+    margin: 0 auto;
+  }
   .last-message p {
     width: 88%;
+    margin: 0 auto;
+  }
+  .greet-message {
+    width: 90%;
     margin: 0 auto;
   }
   #caution .caution-message {
