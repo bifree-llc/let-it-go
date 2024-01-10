@@ -581,12 +581,43 @@ h3 {
   .pc-none {
     display: block;
   }
+  .sp-none {
+    display: none;
+  }
   #fv {
     background: #FDF6F7;
     padding-bottom: 25px;
   }
   #intro {
     margin-top: 80px;
+  }
+  .use-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .use-img img {
+    width: 100%;
+  }
+  .reco-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .reco-img img {
+    width: 100%;
+  }
+  .greet-iimg {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .greet-iimg img {
+    width: 100%;
+  }
+  .faq-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .faq-img img {
+    width: 100%;
   }
   .reco-item ul {
     padding: 0;
@@ -615,6 +646,32 @@ h3 {
     padding: 0;
     width: 85%;
     margin: 0 auto;
+  }
+  .footer .container .footer-menu {
+    display: block;
+  }
+  .footer .container .footer-menu .list {
+    display: block;
+  }
+  .footer .container .footer-menu .list li {
+    line-height: 40px;
+  }
+  .footer .container .footer-menu .list li a {
+    line-height: 100%;
+    margin-right: 0;
+  }
+  .footer .container .footer-menu .list .pc-none {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 49%;
+    margin: 0 auto;
+  }
+  .footer .container .footer-menu .list .line {
+    margin: 50px auto 0;
   }
 }
 /*# sourceMappingURL=masaki.css.map */
