@@ -202,7 +202,7 @@ body ul {
 }
 
 #about {
-  margin-top: 300px;
+  margin-top: 100px;
   background-color: #FDF6F7;
   color: #333333;
   padding-top: 135px;
@@ -334,6 +334,7 @@ SP
     position: absolute;
     right: 0;
     bottom: -10%;
+    z-index: 3;
   }
   .intro-middle {
     display: block;
@@ -343,11 +344,16 @@ SP
   .intro-middle .pc-none {
     margin-bottom: 30px;
   }
+  .intro-middle .wd-88 {
+    width: 88%;
+    margin: 0 auto 35px;
+  }
   .intro-middle-right {
     width: 90%;
     margin-left: auto;
-    margin-top: 0;
+    margin-top: -100px;
     position: inherit;
+    z-index: 1;
   }
   .intro-middle-right p {
     margin-left: 0;
@@ -385,6 +391,9 @@ SP
     padding: 40px 30px;
     font-size: 1.125rem;
     border-radius: 0 80px 80px 0;
+    margin-top: -100px;
+    z-index: 1;
+    position: absolute;
   }
   .about-instead {
     width: 90%;
@@ -412,7 +421,8 @@ SP
             flex-flow: column;
   }
   .support-block .wants {
-    width: 150%;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .loadmap {
     -webkit-box-orient: vertical;
