@@ -224,7 +224,8 @@ h3 {
   max-width: 900px;
   padding-top: 145px;
   padding-bottom: 135px;
-  border-radius: 80px;
+  border-radius: 80px 0 0 80px;
+  margin-left: auto;
 }
 
 .wants ul {
@@ -565,6 +566,9 @@ h3 {
 }
 
 @media screen and (max-width: 900px) {
+  .header .container .header-menu .list {
+    display: none !important;
+  }
   section#fv {
     margin-top: 0;
   }
@@ -573,6 +577,9 @@ h3 {
     margin: 0 auto;
   }
   .desuga-inner p {
+    text-align: justify;
+  }
+  #support p.center {
     text-align: justify;
   }
   #support .support-img {
@@ -598,6 +605,12 @@ h3 {
   }
   #voice ul {
     padding: 0;
+  }
+  #detail .center {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: justify;
   }
   .pc-mainvisual {
     display: none;
@@ -649,6 +662,9 @@ h3 {
   }
   .faq-img img {
     width: 100%;
+  }
+  #about {
+    margin-top: 80px !important;
   }
   #about .about-img {
     width: 90%;
