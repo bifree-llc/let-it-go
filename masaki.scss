@@ -5,6 +5,10 @@
   line-height: 36px;
 }
 
+.sp-none.d-flex {
+  display: flex;
+}
+
 .header {
   position: absolute;
   top: 0;
@@ -355,6 +359,7 @@ h3 {
       display: flex;
       background-color: #42B455;
       padding: 20px 40px;
+      border-radius: 10px;
       a {
         color: #fff;
         text-decoration: none;
@@ -405,7 +410,6 @@ h3 {
         display: flex;
         li {
           a {
-            line-height: 70px;
             color: #fff;
             text-decoration: none;
             margin-right: 30px;
@@ -669,8 +673,10 @@ h3 {
             }
           }
           .pc-none {
-            display: flex;
-            justify-content: space-between;
+            .d-flex {
+              justify-content: space-between;
+              display: flex;
+            }
             width: 49%;
             margin: 0 auto;
           }
