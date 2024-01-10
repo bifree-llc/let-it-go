@@ -318,4 +318,18 @@ SP
         margin-bottom: 40px;
       }
     }
+    .sp-none {
+      display: none;
+    }
+    .pc-none {
+      display: block;
+    }  
+  }
+
+  .pc-none {
+    display: block;
+  }
+
+  .sp-none {
+    display: none;
   }
