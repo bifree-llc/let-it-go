@@ -5,6 +5,12 @@
   line-height: 36px;
 }
 
+.sp-none.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header {
   position: absolute;
   top: 0;
@@ -421,6 +427,7 @@ h3 {
   display: flex;
   background-color: #42B455;
   padding: 20px 40px;
+  border-radius: 10px;
 }
 
 #use .use-item .line-btn a {
@@ -489,7 +496,6 @@ h3 {
 }
 
 .footer .container .footer-menu .list li a {
-  line-height: 70px;
   color: #fff;
   text-decoration: none;
   margin-right: 30px;
@@ -739,14 +745,16 @@ h3 {
     margin-right: 0;
   }
   .footer .container .footer-menu .list .pc-none {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 49%;
+    margin: 0 auto;
+  }
+  .footer .container .footer-menu .list .pc-none .d-flex {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    width: 49%;
-    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .footer .container .footer-menu .list .line {
     margin: 50px auto 0;
