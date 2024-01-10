@@ -495,6 +495,9 @@ h3 {
   .pc-none {
     display: block;
   }  
+  .sp-none {
+    display: none;
+  }
   #fv {
     background: #FDF6F7;
     padding-bottom: 25px;
@@ -567,8 +570,25 @@ h3 {
   .footer {
     .container {
       .footer-menu {
+        display: block;
         .list {
-
+          display: block;
+          li {
+            line-height: 40px;
+            a {
+              line-height: 100%;
+              margin-right: 0;
+            }
+          }
+          .pc-none {
+            display: flex;
+            justify-content: space-between;
+            width: 49%;
+            margin: 0 auto;
+          }
+          .line {
+            margin: 50px auto 0;
+          }
         }
       } 
     }
