@@ -211,10 +211,23 @@ SP
     width: 90%;
     margin: 0 auto;
   }
-
+  #about {
+    .blue {
+      width: 50%;
+    }
+  } 
   #fv img {
     width: 100%;
     margin-top: 70px;
+  }
+  #detail {
+    .detail-img {
+      width: 90%;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
   }
 
   .intro-top {
@@ -259,6 +272,8 @@ SP
     .accent-y {
       width: auto;
       font-size: 1.25rem;
+      line-height: 150%;
+      margin-top: 15px;
     }
     .bg-w .inner ul {
       padding-left: 20px;
