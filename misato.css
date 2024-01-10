@@ -141,7 +141,7 @@ body ul {
   width: 44%;
 }
 
-.intro-middle-left {
+.intro-middle-bottom {
   margin-top: 39px;
   height: auto;
 }
@@ -234,30 +234,35 @@ body ul {
   margin: 0 auto;
 }
 
-.support-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .support-block img {
   width: 44%;
   height: auto;
 }
 
 .support-block .support-block-text {
-  width: 62%;
+  width: 46%;
   height: auto;
+  position: absolute;
+  top: 0;
+  right: 5%;
 }
 
 .support-block .wants {
-  margin-top: 64px;
+  margin-top: -20%;
   padding-top: 135px;
   padding-bottom: 145px;
 }
 
+.support-block-inner {
+  position: relative;
+}
+
 #support p.center {
   text-align: center;
+}
+
+.support-block-img {
+  width: 43%;
 }
 
 .support-block-img img {
@@ -338,7 +343,7 @@ SP
   }
   .intro-middle {
     display: block;
-    margin-top: 100px;
+    margin-top: 20%;
     position: relative;
   }
   .intro-middle .pc-none {
@@ -351,26 +356,26 @@ SP
   .intro-middle-right {
     width: 90%;
     margin-left: auto;
-    margin-top: -100px;
+    margin-top: -14%;
     position: inherit;
     z-index: 1;
   }
   .intro-middle-right p {
     margin-left: 0;
   }
-  .intro-middle-left {
+  .intro-middle-bottom {
     margin: 0 auto;
     width: 100%;
   }
-  .intro-middle-left .sp-block-90 {
+  .intro-middle-bottom .sp-block-90 {
     width: 90%;
     margin: 0 auto;
     display: block;
   }
-  .intro-middle-left p {
+  .intro-middle-bottom p {
     text-align: justify;
   }
-  .intro-middle-left p br {
+  .intro-middle-bottom p br {
     display: none;
   }
   .pink-list {
@@ -378,8 +383,9 @@ SP
     margin-top: 0;
   }
   .pink-list .pink-list-inner {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    width: 88%;
   }
   .pink-list .pink-list-inner ul {
     padding: 0;
@@ -419,10 +425,20 @@ SP
     -webkit-box-direction: normal;
         -ms-flex-flow: column;
             flex-flow: column;
+    margin-bottom: 90%;
   }
   .support-block .wants {
     padding-top: 30px;
     padding-bottom: 30px;
+    z-index: 1;
+    position: absolute;
+    width: 90%;
+    margin-left: auto;
+    right: 0;
+    line-height: 150%;
+  }
+  .hontou {
+    padding-top: 0;
   }
   .loadmap {
     -webkit-box-orient: vertical;
@@ -468,6 +484,12 @@ SP
   }
   .pc-none {
     display: block;
+  }
+  .support-block-img {
+    width: 85%;
+  }
+  .firststep-text {
+    margin: 0 auto 30px;
   }
 }
 /*# sourceMappingURL=misato.css.map */
