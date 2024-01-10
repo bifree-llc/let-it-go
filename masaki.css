@@ -568,6 +568,37 @@ h3 {
   section#fv {
     margin-top: 0;
   }
+  .desuga-inner {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .desuga-inner p {
+    text-align: justify;
+  }
+  #support .support-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #support .support-img img {
+    width: 100%;
+  }
+  #support p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #support p br {
+    display: none;
+  }
+  #voice .voice-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #voice .voice-img img {
+    width: 100%;
+  }
+  #voice ul {
+    padding: 0;
+  }
   .pc-mainvisual {
     display: none;
   }
@@ -672,6 +703,33 @@ h3 {
   }
   .footer .container .footer-menu .list .line {
     margin: 50px auto 0;
+  }
+  .support-block {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-flow: wrap-reverse !important;
+            flex-flow: wrap-reverse !important;
+  }
+  .support-block img {
+    width: 85% !important;
+  }
+  .support-block .support-block-text {
+    width: 90% !important;
+    margin: 0 auto 40px;
+  }
+  .support-block .support-block-text p {
+    text-align: justify;
+  }
+  .quote {
+    width: 97% !important;
+    margin-bottom: 80px;
+    padding-bottom: 35px;
+  }
+  .quote ul li {
+    font-size: 20px;
+  }
+  .quote p {
+    font-size: 16px;
   }
 }
 /*# sourceMappingURL=masaki.css.map */
