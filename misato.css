@@ -363,7 +363,7 @@ SP
   .about-instead .accent-y {
     width: auto;
     font-size: 1.25rem;
-    line-height: 60px;
+    line-height: 150%;
     margin-top: 15px;
   }
   .about-instead .bg-w .inner ul {
@@ -398,13 +398,16 @@ SP
   }
   .loadmap h4 {
     font-size: 20px;
-    line-height: 60px;
+    line-height: 150%;
+    width: 350px;
+    height: 60px;
   }
   .loadmap-nmv__1::before, .loadmap-nmv__2::before, .loadmap-nmv__3::before {
     width: 60px;
     height: 60px;
     font-size: 70px;
     top: 0px;
+    flex-shrink: 0;
   }
   #voice h3 {
     margin-bottom: 160px;

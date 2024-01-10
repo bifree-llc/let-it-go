@@ -388,7 +388,7 @@ SP
     .accent-y {
       width: auto;
       font-size: 1.25rem;
-      line-height: 60px;
+      line-height: 150%;
       margin-top: 15px;
     }
     .bg-w .inner ul {
@@ -430,7 +430,9 @@ SP
     flex-flow: column;
     h4 {
       font-size: 20px;
-      line-height: 60px;
+      line-height: 150%;
+      width: 350px;
+      height: 60px;
     }
   }
 
@@ -440,6 +442,7 @@ SP
     height: 60px;
     font-size: 70px;
     top: 0px;
+    flex-shrink: 0;
   }
 
   //ボイス
